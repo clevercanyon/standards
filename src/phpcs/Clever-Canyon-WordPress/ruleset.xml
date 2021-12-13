@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<ruleset name="Clever-Canyon-WordPress">
+    <description>Based on https://github.com/WordPress/WordPress-Coding-Standards.</description>
+
+	<!-- PHP Compatibility: <https://github.com/PHPCompatibility/PHPCompatibilityWP> -->
+
+	<rule ref="PHPCompatibilityWP" />
+	<config name="testVersion" value="7.4-" />
+
+	<!-- WordPress: <https://github.com/WordPress/WordPress-Coding-Standards> -->
+
+	<rule ref="WordPress">
+		<!-- Allow commented out code. -->
+
+		<exclude name="Squiz.PHP.CommentedOutCode" />
+
+		<!-- Don't require use of a @package tag in file comments. -->
+
+		<exclude name="Squiz.Commenting.FileComment.MissingPackageTag" />
+
+		<!-- Don't require line break after file comment. -->
+
+		<exclude name="Squiz.Commenting.FileComment.SpacingAfterComment" />
+
+		<!-- Allow property comments without @var given PHP 7.4's type declarations. -->
+
+		<exclude name="Squiz.Commenting.VariableComment.MissingVar" />
+
+		<!-- Disable quirky @throws check, which doesn't like `@throws \Exception`. -->
+
+		<exclude name="Squiz.Commenting.FunctionComment.ThrowsNotCapital" />
+
+		<!-- Allow for PSR-4 vs. `class-[hyphentated].php` approach. -->
+
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+
+		<!-- Do not require every single instance of `wordpress` to be capitalized. -->
+		<!-- When running phpcbf this can sometimes transform string literals in highly unexpected ways. -->
+
+		<exclude name="WordPress.WP.CapitalPDangit" />
+
+		<!-- Enable use of short ternary expressions, when appropriate. -->
+
+		<exclude name="WordPress.PHP.DisallowShortTernary" />
+
+		<!-- Disable the seemingly quirkly increment/decrement usage checks. -->
+
+		<exclude name="Squiz.Operators.IncrementDecrementUsage" />
+
+		<!-- Allow for useless overriding methods, when appropriate; e.g., in skeletons, etc. -->
+
+		<exclude name="Generic.CodeAnalysis.UselessOverridingMethod.Found" />
+
+		<!-- Force short array syntax for cleaner code. -->
+
+		<rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax" />
+
+		<!-- Align arrays properly for cleaner code, even on long lines. -->
+
+		<rule ref="WordPress.Arrays.MultipleStatementAlignment">
+			<properties><property name="maxColumn" value="1000" /></properties>
+		</rule>
+
+		<!-- Disable function call signatures that are quirky. -->
+		<!-- <https://github.com/squizlabs/PHP_CodeSniffer/issues/3126> -->
+
+		<exclude name="PEAR.Functions.FunctionCallSignature.MultipleArguments" />
+		<exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket" />
+		<exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine" />
+
+		<!-- Allow assignment in conditions, when appropriate. -->
+
+		<exclude name="Squiz.PHP.DisallowMultipleAssignments" />
+		<exclude name="Squiz.PHP.DisallowMultipleAssignments.FoundInControlStructure" />
+
+		<exclude name="WordPress.CodeAnalysis.AssignmentInCondition" />
+		<exclude name="WordPress.CodeAnalysis.AssignmentInCondition.FoundInWhileCondition" />
+
+		<!-- Functions that really should be banned from use entirely. -->
+
+		<rule ref="Generic.PHP.ForbiddenFunctions">
+			<properties>
+				<property name="forbiddenFunctions" type="array" extend="true">
+					<element key="print" value="echo" />
+					<element key="create_function" value="null" />
+				</property>
+			</properties>
+		</rule>
+
+		<!-- Functions we don't want to be nagged about using, when appropriate. -->
+		<!-- Better to leave all of this to engineering discretion, as there are some appropriate use cases. -->
+		<!-- We also use WordPress standards in a few non-WordPress places, so this becomes annoying. -->
+
+		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.runtime_configuration_ini_set" />
+		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.runtime_configuration_error_reporting" />
+
+		<exclude name="WordPress.PHP.DevelopmentFunctions.prevent_path_disclosure_phpinfo" />
+		<exclude name="WordPress.PHP.DevelopmentFunctions.prevent_path_disclosure_error_reporting" />
+
+		<exclude name="WordPress.WP.AlternativeFunctions.json_encode_json_encode" />
+
+		<exclude name="WordPress.WP.AlternativeFunctions.file_system_read_fopen" />
+		<exclude name="WordPress.WP.AlternativeFunctions.file_system_read_fwrite" />
+		<exclude name="WordPress.WP.AlternativeFunctions.file_system_read_fclose" />
+
+		<exclude name="WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents" />
+		<exclude name="WordPress.WP.AlternativeFunctions.file_system_read_file_put_contents" />
+
+		<exclude name="WordPress.PHP.DevelopmentFunctions.error_log_print_r" />
+		<exclude name="WordPress.PHP.DevelopmentFunctions.error_log_var_export" />
+		<exclude name="WordPress.PHP.DevelopmentFunctions.error_log_error_log" />
+
+		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.system_calls_exec" />
+		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.system_calls_proc_open" />
+		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.system_calls_passthru" />
+
+		<!-- Would like to keep, but incompatible with PhpStorm's formatter. -->
+		<!-- PhpStorm does mostly the same formatting, but there are subtle differences that don't pass these checks. -->
+
+		<exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning" />
+		<exclude name="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned" />
+		<exclude name="WordPress.Arrays.ArrayKeySpacingRestrictions.SpacesAroundArrayKeys" />
+    </rule>
+</ruleset>
