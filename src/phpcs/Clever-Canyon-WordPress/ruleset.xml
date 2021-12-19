@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <ruleset name="Clever-Canyon-WordPress">
-    <description>Based on https://github.com/WordPress/WordPress-Coding-Standards.</description>
+    <description>Based on WordPress coding standards (WPCS).</description>
 
 	<!-- PHP Compatibility: <https://github.com/PHPCompatibility/PHPCompatibilityWP> -->
 
