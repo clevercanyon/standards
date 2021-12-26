@@ -409,16 +409,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.208.5",
+            "version": "3.208.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "58fa9d8b522b0afa260299179ff950c783ff0ee1"
+                "reference": "41a800dd7cf5c4ac0ef9bf8db01e838ab6a3698c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/58fa9d8b522b0afa260299179ff950c783ff0ee1",
-                "reference": "58fa9d8b522b0afa260299179ff950c783ff0ee1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/41a800dd7cf5c4ac0ef9bf8db01e838ab6a3698c",
+                "reference": "41a800dd7cf5c4ac0ef9bf8db01e838ab6a3698c",
                 "shasum": ""
             },
             "require": {
@@ -494,9 +494,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.208.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.208.7"
             },
-            "time": "2021-12-13T20:17:56+00:00"
+            "time": "2021-12-21T19:16:39+00:00"
         },
         {
             "name": "clevercanyon/php-chalk",
@@ -504,12 +504,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clevercanyon/php-chalk.git",
-                "reference": "fe8bd24776efadf54941ce09a39e19d747b9aa18"
+                "reference": "db97e7fea2bf967b8338ab5cca7f5f9f58dfae4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clevercanyon/php-chalk/zipball/fe8bd24776efadf54941ce09a39e19d747b9aa18",
-                "reference": "fe8bd24776efadf54941ce09a39e19d747b9aa18",
+                "url": "https://api.github.com/repos/clevercanyon/php-chalk/zipball/db97e7fea2bf967b8338ab5cca7f5f9f58dfae4b",
+                "reference": "db97e7fea2bf967b8338ab5cca7f5f9f58dfae4b",
                 "shasum": ""
             },
             "require": {
@@ -554,7 +554,7 @@
                 "issues": "https://github.com/clevercanyon/php-chalk/issues",
                 "source": "https://github.com/clevercanyon/php-chalk/tree/main"
             },
-            "time": "2021-12-19T05:57:33+00:00"
+            "time": "2021-12-26T18:44:41+00:00"
         },
         {
             "name": "clevercanyon/php-js-utilities",
@@ -562,12 +562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clevercanyon/php-js-utilities.git",
-                "reference": "d9336792333f3aff9c3cc9e79c5505c40dd429a3"
+                "reference": "62511c4d5508353763670572854138df014a26b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities/zipball/d9336792333f3aff9c3cc9e79c5505c40dd429a3",
-                "reference": "d9336792333f3aff9c3cc9e79c5505c40dd429a3",
+                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities/zipball/62511c4d5508353763670572854138df014a26b6",
+                "reference": "62511c4d5508353763670572854138df014a26b6",
                 "shasum": ""
             },
             "require": {
@@ -608,7 +608,7 @@
                 "issues": "https://github.com/clevercanyon/php-js-utilities/issues",
                 "source": "https://github.com/clevercanyon/php-js-utilities/tree/main"
             },
-            "time": "2021-12-19T05:56:47+00:00"
+            "time": "2021-12-19T06:00:25+00:00"
         },
         {
             "name": "clevercanyon/php-js-utilities-dev",
@@ -616,12 +616,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clevercanyon/php-js-utilities-dev.git",
-                "reference": "ac06a940e75a285ae877cb207462d5d92099fa44"
+                "reference": "3416749ee858a87e1e78a90aa393dbb1d56c5add"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities-dev/zipball/ac06a940e75a285ae877cb207462d5d92099fa44",
-                "reference": "ac06a940e75a285ae877cb207462d5d92099fa44",
+                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities-dev/zipball/3416749ee858a87e1e78a90aa393dbb1d56c5add",
+                "reference": "3416749ee858a87e1e78a90aa393dbb1d56c5add",
                 "shasum": ""
             },
             "require": {
@@ -686,7 +686,7 @@
                 "issues": "https://github.com/clevercanyon/php-js-utilities-dev/issues",
                 "source": "https://github.com/clevercanyon/php-js-utilities-dev/tree/main"
             },
-            "time": "2021-12-19T05:56:22+00:00"
+            "time": "2021-12-19T06:00:03+00:00"
         },
         {
             "name": "clevercanyon/php-js-utilities-dev-npm",
@@ -694,12 +694,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clevercanyon/php-js-utilities-dev-npm.git",
-                "reference": "572a0a681ea287be05c23fdc837f68c4d05cfcdd"
+                "reference": "f15185117ee72532c3b473162b09499b053e8b22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities-dev-npm/zipball/572a0a681ea287be05c23fdc837f68c4d05cfcdd",
-                "reference": "572a0a681ea287be05c23fdc837f68c4d05cfcdd",
+                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities-dev-npm/zipball/f15185117ee72532c3b473162b09499b053e8b22",
+                "reference": "f15185117ee72532c3b473162b09499b053e8b22",
                 "shasum": ""
             },
             "require": {
@@ -735,7 +735,7 @@
                 "issues": "https://github.com/clevercanyon/php-js-utilities-dev-npm/issues",
                 "source": "https://github.com/clevercanyon/php-js-utilities-dev-npm/tree/main"
             },
-            "time": "2021-12-18T13:18:00+00:00"
+            "time": "2021-12-19T05:59:12+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -1206,9 +1206,6 @@
             },
             "require": {
                 "php": "^7.1 || ^8.0"
-            },
-            "replace": {
-                "myclabs/deep-copy": "self.version"
             },
             "require-dev": {
                 "doctrine/collections": "^1.0",
@@ -1962,16 +1959,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.10",
+            "version": "9.5.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c814a05837f2edb0d1471d6e3f4ab3501ca3899a"
+                "reference": "2406855036db1102126125537adb1406f7242fdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c814a05837f2edb0d1471d6e3f4ab3501ca3899a",
-                "reference": "c814a05837f2edb0d1471d6e3f4ab3501ca3899a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2406855036db1102126125537adb1406f7242fdd",
+                "reference": "2406855036db1102126125537adb1406f7242fdd",
                 "shasum": ""
             },
             "require": {
@@ -2049,11 +2046,11 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.10"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.11"
             },
             "funding": [
                 {
-                    "url": "https://phpunit.de/donate.html",
+                    "url": "https://phpunit.de/sponsors.html",
                     "type": "custom"
                 },
                 {
@@ -2061,7 +2058,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-09-25T07:38:51+00:00"
+            "time": "2021-12-25T07:07:57+00:00"
         },
         {
             "name": "psr/http-client",
@@ -3627,5 +3624,5 @@
         "php": "^7.4 || ^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
