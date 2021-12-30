@@ -30,6 +30,10 @@
 
 		<exclude name="Squiz.Commenting.FunctionComment.ThrowsNotCapital" />
 
+		<!-- Disable quirky `new class()` brace check, which doesn't understand anonymous classes in PHP 7.4+. -->
+
+		<exclude name="WordPress.Classes.ClassInstantiation.MissingParenthesis" />
+
 		<!-- Allow for PSR-4 vs. `class-[hyphentated].php` approach. -->
 
 		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
