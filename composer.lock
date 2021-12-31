@@ -562,12 +562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clevercanyon/php-js-utilities.git",
-                "reference": "8ba064b535527dc0f3d3f0b09dc2f1192a1dc25a"
+                "reference": "bb7368b904c74688e6e7b5de71daf23e7d542d0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities/zipball/8ba064b535527dc0f3d3f0b09dc2f1192a1dc25a",
-                "reference": "8ba064b535527dc0f3d3f0b09dc2f1192a1dc25a",
+                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities/zipball/bb7368b904c74688e6e7b5de71daf23e7d542d0d",
+                "reference": "bb7368b904c74688e6e7b5de71daf23e7d542d0d",
                 "shasum": ""
             },
             "require": {
@@ -576,7 +576,7 @@
                 "ext-mbstring": "*",
                 "ext-zip": "*",
                 "php": "^7.4 || ^8.0 || ^8.1",
-                "ulrichsg/getopt-php": "^3.4"
+                "ulrichsg/getopt-php": "^4.0"
             },
             "require-dev": {
                 "clevercanyon/php-js-utilities-dev": "dev-main"
@@ -611,7 +611,7 @@
                 "issues": "https://github.com/clevercanyon/php-js-utilities/issues",
                 "source": "https://github.com/clevercanyon/php-js-utilities/tree/main"
             },
-            "time": "2021-12-30T23:26:10+00:00"
+            "time": "2021-12-31T11:11:04+00:00"
         },
         {
             "name": "clevercanyon/php-js-utilities-dev",
@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clevercanyon/php-js-utilities-dev.git",
-                "reference": "b7d73935659bd6c54fec2588cc4bddc98e67ff2c"
+                "reference": "8e8f8fd2e06cb4341a7a1925f63a0032cf9899e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities-dev/zipball/b7d73935659bd6c54fec2588cc4bddc98e67ff2c",
-                "reference": "b7d73935659bd6c54fec2588cc4bddc98e67ff2c",
+                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities-dev/zipball/8e8f8fd2e06cb4341a7a1925f63a0032cf9899e0",
+                "reference": "8e8f8fd2e06cb4341a7a1925f63a0032cf9899e0",
                 "shasum": ""
             },
             "require": {
@@ -692,7 +692,7 @@
                 "issues": "https://github.com/clevercanyon/php-js-utilities-dev/issues",
                 "source": "https://github.com/clevercanyon/php-js-utilities-dev/tree/main"
             },
-            "time": "2021-12-30T23:32:41+00:00"
+            "time": "2021-12-31T11:07:26+00:00"
         },
         {
             "name": "clevercanyon/php-js-utilities-dev-npm",
@@ -700,12 +700,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clevercanyon/php-js-utilities-dev-npm.git",
-                "reference": "847eeae98cd95a3dc4dce77108e0917d37ab72fb"
+                "reference": "592c17f382149c78ebd298850c4c075b99ce0f05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities-dev-npm/zipball/847eeae98cd95a3dc4dce77108e0917d37ab72fb",
-                "reference": "847eeae98cd95a3dc4dce77108e0917d37ab72fb",
+                "url": "https://api.github.com/repos/clevercanyon/php-js-utilities-dev-npm/zipball/592c17f382149c78ebd298850c4c075b99ce0f05",
+                "reference": "592c17f382149c78ebd298850c4c075b99ce0f05",
                 "shasum": ""
             },
             "require": {
@@ -741,7 +741,7 @@
                 "issues": "https://github.com/clevercanyon/php-js-utilities-dev-npm/issues",
                 "source": "https://github.com/clevercanyon/php-js-utilities-dev-npm/tree/main"
             },
-            "time": "2021-12-26T18:47:12+00:00"
+            "time": "2021-12-30T23:35:08+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -3512,25 +3512,25 @@
         },
         {
             "name": "ulrichsg/getopt-php",
-            "version": "v3.4.0",
+            "version": "v4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getopt-php/getopt-php.git",
-                "reference": "9121d7c2c51a6a59ee407c49a13b4d8cfae71075"
+                "reference": "073e809a5a4811b0caec43a2151b0e8ccbe29e4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getopt-php/getopt-php/zipball/9121d7c2c51a6a59ee407c49a13b4d8cfae71075",
-                "reference": "9121d7c2c51a6a59ee407c49a13b4d8cfae71075",
+                "url": "https://api.github.com/repos/getopt-php/getopt-php/zipball/073e809a5a4811b0caec43a2151b0e8ccbe29e4b",
+                "reference": "073e809a5a4811b0caec43a2151b0e8ccbe29e4b",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": ">=5.4.0"
+                "php": ">=7.1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8",
-                "squizlabs/php_codesniffer": "^2.7"
+                "phpunit/phpunit": "^7.5.20",
+                "squizlabs/php_codesniffer": "^3.5.8"
             },
             "type": "library",
             "autoload": {
@@ -3556,9 +3556,9 @@
             "homepage": "http://getopt-php.github.io/getopt-php",
             "support": {
                 "issues": "https://github.com/getopt-php/getopt-php/issues",
-                "source": "https://github.com/getopt-php/getopt-php/tree/v3.4.0"
+                "source": "https://github.com/getopt-php/getopt-php/tree/v4.0.0"
             },
-            "time": "2020-07-14T06:09:04+00:00"
+            "time": "2021-05-02T13:05:10+00:00"
         },
         {
             "name": "webmozart/assert",
