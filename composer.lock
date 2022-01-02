@@ -504,12 +504,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/clevercanyon/php-chalk.git",
-                "reference": "a69137ccea28b266352fffc1e0961b97c8df0f7c"
+                "reference": "d40f04066efa5bf1b45ce22f1c027d52bf044b70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clevercanyon/php-chalk/zipball/a69137ccea28b266352fffc1e0961b97c8df0f7c",
-                "reference": "a69137ccea28b266352fffc1e0961b97c8df0f7c",
+                "url": "https://api.github.com/repos/clevercanyon/php-chalk/zipball/d40f04066efa5bf1b45ce22f1c027d52bf044b70",
+                "reference": "d40f04066efa5bf1b45ce22f1c027d52bf044b70",
                 "shasum": ""
             },
             "require": {
@@ -554,7 +554,7 @@
                 "issues": "https://github.com/clevercanyon/php-chalk/issues",
                 "source": "https://github.com/clevercanyon/php-chalk/tree/main"
             },
-            "time": "2022-01-02T14:08:07+00:00"
+            "time": "2022-01-02T14:14:39+00:00"
         },
         {
             "name": "clevercanyon/php-js-utilities",
