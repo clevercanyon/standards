@@ -2,7 +2,7 @@
 	"license"           : "GPL-2.0-or-later",
 	"type"              : "phpcodesniffer-standard",
 	"name"              : "clevercanyon/php-js-standards",
-	"description"       : "Intended for internal company use only. CLEVER CANYON's standards are for PHP/JS development.",
+	"description"       : "CLEVER CANYON’s coding standards for PHP/JS.",
 	"authors"           : [
 		{
 			"name"     : "CLEVER CANYON",
@@ -14,42 +14,16 @@
 	"minimum-stability" : "dev",
 	"config"            : {
 		"allow-plugins" : {
-			"dealerdirect/phpcodesniffer-composer-installer": true,
-			"composer/package-versions-deprecated": true
+			"dealerdirect/phpcodesniffer-composer-installer" : true,
+			"composer/package-versions-deprecated"           : true
 		}
 	},
 	"require"           : {
-		"php"                                            : "^7.4 || ^8.0 || ^8.1",
 		"squizlabs/php_codesniffer"                      : "^3.6",
 		"dealerdirect/phpcodesniffer-composer-installer" : "^0.7",
+
+		"wp-coding-standards/wpcs"                       : "^2.3",
 		"phpcompatibility/php-compatibility"             : "^9.3",
-		"phpcompatibility/phpcompatibility-wp"           : "^2.1",
-		"wp-coding-standards/wpcs"                       : "^2.3"
-	},
-	"autoload"          : {
-		"psr-4" : {
-			"Clever_Canyon\\Standards\\" : "./src/classes"
-		}
-	},
-	"require-dev"       : {
-		"clevercanyon/php-js-utilities-dev" : "dev-main"
-	},
-	"autoload-dev"      : {
-		"psr-4" : {
-			"Clever_Canyon\\Standards__Tests\\" : "./tests/classes"
-		}
-	},
-	"scripts"           : {
-		"post-update-cmd"   : [
-			"[ $COMPOSER_DEV_MODE -eq 0 ] || ./vendor/clevercanyon/php-js-utilities-dev/src/toolchain/composer/post-update-cmd.php"
-		],
-		"run-project-tests" : [
-			"./vendor/bin/phpunit --configuration ./.phpunit.xml --testsuite tests"
-		]
-	},
-	"extra"             : {
-		"clevercanyon" : {
-			"$extends-packages" : [ "clevercanyon/php-js-utilities-dev" ]
-		}
+		"phpcompatibility/phpcompatibility-wp"           : "^2.1"
 	}
 }
