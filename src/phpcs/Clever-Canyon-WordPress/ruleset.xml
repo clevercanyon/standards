@@ -30,6 +30,10 @@
 
 		<exclude name="Squiz.Commenting.FunctionComment.ThrowsNotCapital" />
 
+		<!-- Allow switch case statements to be separated by line breaks for cleaner code. -->
+
+		<exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE" />
+
 		<!-- Disable quirky `new class()` brace check, which doesn't understand anonymous classes in PHP 7.4+. -->
 
 		<exclude name="WordPress.Classes.ClassInstantiation.MissingParenthesis" />
