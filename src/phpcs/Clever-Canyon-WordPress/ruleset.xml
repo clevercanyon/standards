@@ -30,9 +30,14 @@
 
 		<exclude name="Squiz.Commenting.FunctionComment.ThrowsNotCapital" />
 
+		<!-- Disable trying to enforce every block comment to start with a capital letter. -->
+
+		<exclude name="Squiz.Commenting.BlockComment.NoCapital" />
+
 		<!-- Allow switch case statements to be separated by line breaks for cleaner code. -->
 
 		<exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE" />
+		<exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineDEFAULT" />
 
 		<!-- Disable quirky `new class()` brace check, which doesn't understand anonymous classes in PHP 7.4+. -->
 
@@ -59,6 +64,10 @@
 		<!-- Allow for useless overriding methods, when appropriate; e.g., in skeletons, etc. -->
 
 		<exclude name="Generic.CodeAnalysis.UselessOverridingMethod.Found" />
+
+		<!-- Allow associative arrays to be given in a single line when appropriate; e.g., when short enough. -->
+
+		<exclude name="WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound" />
 
 		<!-- Force short array syntax for cleaner code. -->
 
@@ -104,8 +113,12 @@
 		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.system_calls_exec" />
 		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.system_calls_proc_open" />
 		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.system_calls_passthru" />
+		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.system_calls_shell_exec" />
+		<exclude name="WordPress.PHP.DevelopmentFunctions.error_log_debug_backtrace" />
 		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.runtime_configuration_ini_set" />
 		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.runtime_configuration_error_reporting" />
+		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.obfuscation_base64_encode" />
+		<exclude name="WordPress.PHP.DiscouragedPHPFunctions.obfuscation_base64_decode" />
 
 		<exclude name="WordPress.WP.AlternativeFunctions.json_encode_json_encode" />
 		<exclude name="WordPress.WP.AlternativeFunctions.file_system_read_fopen" />
@@ -113,6 +126,7 @@
 		<exclude name="WordPress.WP.AlternativeFunctions.file_system_read_fclose" />
 		<exclude name="WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents" />
 		<exclude name="WordPress.WP.AlternativeFunctions.file_system_read_file_put_contents" />
+		<exclude name="WordPress.WP.AlternativeFunctions.strip_tags_strip_tags" />
 
 		<exclude name="WordPress.PHP.DevelopmentFunctions.error_log_var_dump" />
 		<exclude name="WordPress.PHP.DevelopmentFunctions.error_log_print_r" />
