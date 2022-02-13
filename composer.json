@@ -2,10 +2,10 @@
 	"license"           : "GPL-2.0-or-later",
 	"type"              : "phpcodesniffer-standard",
 	"name"              : "clevercanyon/standards",
-	"description"       : "CLEVER CANYON’s coding standards for PHP/JS.",
+	"description"       : "Clever Canyon’s coding standards for PHP/JS.",
 	"authors"           : [
 		{
-			"name"     : "CLEVER CANYON",
+			"name"     : "Clever Canyon",
 			"homepage" : "https://clevercanyon.com",
 			"role"     : "organization"
 		}

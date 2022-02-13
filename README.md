@@ -1,3 +1,3 @@
-# CLEVER CANYON: PHP/JS Standards
+# Clever Canyon: PHP/JS Standards
 
-CLEVER CANYON’s coding standards for PHP/JS.
+Clever Canyon’s coding standards for PHP/JS.
