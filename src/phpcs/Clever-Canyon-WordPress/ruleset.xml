@@ -95,6 +95,10 @@
 		<exclude name="WordPress.CodeAnalysis.AssignmentInCondition" />
 		<exclude name="WordPress.CodeAnalysis.AssignmentInCondition.FoundInWhileCondition" />
 
+		<!-- Allow empty `catch() {}` blocks, when appropriate. -->
+
+		<exclude name="Generic.CodeAnalysis.EmptyStatement.DetectedCatch" />
+
 		<!-- Functions that really should be banned from use entirely. -->
 
 		<rule ref="Generic.PHP.ForbiddenFunctions">
