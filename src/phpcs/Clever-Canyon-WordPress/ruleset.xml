@@ -30,6 +30,10 @@
 
 		<exclude name="Squiz.Commenting.FunctionComment.ThrowsNotCapital" />
 
+		<!-- Disable the @throws counter also. It's not that smart yet. -->
+
+		<exclude name="Squiz.Commenting.FunctionCommentThrowTag.WrongNumber" />
+
 		<!-- Disable trying to enforce every block comment to start with a capital letter. -->
 
 		<exclude name="Squiz.Commenting.BlockComment.NoCapital" />
@@ -52,6 +56,10 @@
 		<!-- When running phpcbf this can sometimes transform string literals in highly unexpected ways. -->
 
 		<exclude name="WordPress.WP.CapitalPDangit" />
+
+		<!-- Enable use of PDO class. -->
+
+		<exclude name="WordPress.DB.RestrictedClasses.mysql__PDO" />
 
 		<!-- Enable use of short ternary expressions, when appropriate. -->
 
