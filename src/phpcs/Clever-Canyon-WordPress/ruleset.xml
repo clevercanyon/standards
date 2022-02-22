@@ -38,6 +38,10 @@
 
 		<exclude name="Squiz.Commenting.BlockComment.NoCapital" />
 
+		<!-- Don't require that a block comment be preceded by an empty line. -->
+
+		<exclude name="Squiz.Commenting.BlockComment.NoEmptyLineBefore" />
+
 		<!-- Allow switch case statements to be separated by line breaks for cleaner code. -->
 
 		<exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE" />
