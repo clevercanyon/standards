@@ -34,6 +34,10 @@
 
 		<exclude name="Squiz.Commenting.FunctionCommentThrowTag.WrongNumber" />
 
+		<!-- Disable quirky indentation check, which doesn't understand alignment in all cases. -->
+
+		<exclude name="Generic.Formatting.MultipleStatementAlignment.IncorrectWarning" />
+
 		<!-- Disable trying to enforce every block comment to start with a capital letter. -->
 
 		<exclude name="Squiz.Commenting.BlockComment.NoCapital" />
